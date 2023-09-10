@@ -41,14 +41,14 @@ namespace pz_01
                         {
                             arrayA = lists[i].Split(' ');
 
-                            a = (int.Parse(arrayA[0]) * Math.PI) / int.Parse(arrayA[arrayA.Length - 1]);
+                            a = (double.Parse(arrayA[0]) * Math.PI) / double.Parse(arrayA[arrayA.Length - 1]);
                             newABC.Add(a);
 
                         }
                         else
                         {
                             arrayA = lists[i].Split(' ');
-                            a = Math.PI / int.Parse(arrayA[arrayA.Length - 1]);
+                            a = Math.PI / double.Parse(arrayA[arrayA.Length - 1]);
                             newABC.Add(a);
                         }
                     }
@@ -61,7 +61,7 @@ namespace pz_01
                         }
                         else
                         {
-                            a = int.Parse(lists[i]);
+                            a = double.Parse(lists[i]);
                             newABC.Add(a);
                         }
 
@@ -75,14 +75,14 @@ namespace pz_01
                         {
                             arrayA = lists[i].Split(' ');
 
-                            b = (int.Parse(arrayA[0]) * Math.PI) / int.Parse(arrayA[arrayA.Length - 1]);
+                            b = (double.Parse(arrayA[0]) * Math.PI) / double.Parse(arrayA[arrayA.Length - 1]);
                             newABC.Add(b);
 
                         }
                         else
                         {
                             arrayA = lists[i].Split(' ');
-                            b = Math.PI / int.Parse(arrayA[arrayA.Length - 1]);
+                            b = Math.PI / double.Parse(arrayA[arrayA.Length - 1]);
                             newABC.Add(b);
                         }
                     }
@@ -95,7 +95,7 @@ namespace pz_01
                         }
                         else
                         {
-                            b = int.Parse(lists[i]);
+                            b = double.Parse(lists[i]);
                             newABC.Add(b);
                         }
 
@@ -109,14 +109,14 @@ namespace pz_01
                         {
                             arrayA = lists[i].Split(' ');
 
-                            c = (int.Parse(arrayA[0]) * Math.PI) / int.Parse(arrayA[arrayA.Length - 1]);
+                            c = (double.Parse(arrayA[0]) * Math.PI) / double.Parse(arrayA[arrayA.Length - 1]);
                             newABC.Add(c);
 
                         }
                         else
                         {
                             arrayA = lists[i].Split(' ');
-                            c = Math.PI / int.Parse(arrayA[arrayA.Length - 1]);
+                            c = Math.PI / double.Parse(arrayA[arrayA.Length - 1]);
                             newABC.Add(c);
                         }
                     }
@@ -129,7 +129,7 @@ namespace pz_01
                         }
                         else
                         {
-                            c = int.Parse(lists[i]);
+                            c = double.Parse(lists[i]);
                             newABC.Add(c);
                         }
 
