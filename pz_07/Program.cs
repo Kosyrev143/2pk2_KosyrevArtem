@@ -63,3 +63,14 @@ namespace pz_07
         }
     }
 }
+
+
+//array[i][indexFirst] = MaxNum[indexFirst];
+//array[i][indexMax] = third;
+//indexFirst++;
+
+//if (j == 0)
+//{
+//    // запоминаем 1 цифру в строке
+//    third = array[i][j];
+//}
