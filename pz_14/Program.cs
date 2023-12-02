@@ -25,7 +25,7 @@ namespace pz_14
             //                  Средний балл по классу: 3,6
 
             // создать текстовый файл
-            string path = @"C:\work\students.txt";
+            string path = @"C:\Users\kosyr\source\repos\2pk2_KosyrevArtem1\pz_14\work\students.txt";
             File.Delete(path);
             FileStream file;
             
