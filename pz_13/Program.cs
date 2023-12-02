@@ -34,6 +34,7 @@ namespace pz_13
             Console.WriteLine(Summ(2));
         }
 
+        // задание 1
         static int ArithmeticProgression(int d, int n, int A1)
         {
             int An = 1;
@@ -47,6 +48,7 @@ namespace pz_13
 
         }
 
+        // задание 2
         static double GeometricProgression(double q, int n, int B1)
         {
             double Bn = 1;
@@ -60,6 +62,7 @@ namespace pz_13
 
         }
 
+        // задание 3
         static void ConclusionAB(int a, int b)
         {
             if (a <= b)
@@ -74,6 +77,7 @@ namespace pz_13
 
         }
 
+        // задание 3
         static void ConclusionBA(int a, int b)
         {
 
@@ -93,6 +97,7 @@ namespace pz_13
 
         }
 
+        // задание 4
         static int Summ(int x)
         {
 
